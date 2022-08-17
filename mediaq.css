@@ -1,0 +1,68 @@
+/* Mobile M and S */
+@media only screen and (max-width: 375px) {
+    header .sidebarIconToggle {
+        right: 10px;
+    }
+}
+
+/* Tablet */
+@media only screen and (min-width: 768px) {}
+
+/* Laptops */
+@media only screen and (min-width: 1024px) {
+    header .cont {
+        justify-content: space-between;
+        padding: 0 15px;
+    }
+    header .cont nav {
+        display: flex;
+    }
+    header .toggler, header .med-adj {
+        display: none;
+    }
+    main .hero .h-txt {
+        height: 500px;
+        align-items: flex-start;
+        /* margin: 0; */
+    }
+    main .hero .h-txt h1, main .hero .h-txt h2, main .hero .h-txt h3, main .hero .h-txt p {
+        text-align: left;
+    }
+    main .hero .h-txt .cnt {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    main .work .cnt {
+        align-items: flex-start;
+    }
+    main .work .cnt h1, main .work .cnt h3 {
+        text-align: center;
+    }
+    main .skills .cnt {
+        align-items: flex-start;
+    }
+    main .skills .cnt h1, main .work .cnt h3 {
+        text-align: center;
+    }
+    main .certifs .cnt {
+        align-items: flex-start;
+    }
+    main .certifs .cnt h1, main .work .cnt h3 {
+        text-align: center;
+    }
+    main .testims .cnt {
+        align-items: flex-start;
+    }
+    main .testims .cnt h1, main .work .cnt h3 {
+        text-align: center;
+    }
+}
+
+/* Desktops */
+@media only screen and (max-width: 900px) {
+    #cursor {
+        display: none;
+    }
+}
